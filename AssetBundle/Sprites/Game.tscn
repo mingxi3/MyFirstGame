@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://bl18dlqn5t0wa"]
+
+[ext_resource type="Texture2D" uid="uid://c0fog04rlkryt" path="res://AssetBundle/Sprites/ForestBackground.png" id="1_wtcfe"]
+
+[node name="Node2D" type="Node2D" unique_id=2078802627]
+
+[node name="Background 1" type="Sprite2D" parent="." unique_id=430567852]
+position = Vector2(-120, 0)
+texture = ExtResource("1_wtcfe")
+
+[node name="Background 2" type="Sprite2D" parent="." unique_id=1069078821]
+position = Vector2(120, 0)
+texture = ExtResource("1_wtcfe")
